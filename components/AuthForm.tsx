@@ -78,7 +78,7 @@ const AuthForm = ({type}:{type:FormType}) =>{
                                   placeholder="Enter your password"
                                   type="password"/>
 
-                    <Button variant="secondary" type="submit">{isSignIn ? 'Sign in' : 'Create an Account'}</Button>
+                    <Button className="btn-primary w-full" type="submit">{isSignIn ? 'Sign in' : 'Create an Account'}</Button>
                   </form>
                 </Form>
                 <p className="text-center">
